@@ -1,0 +1,99 @@
+body{
+    background-color: #E29578;
+    overflow-y:scroll ;
+
+}
+.container{
+    background-color: #D6D9CE;
+    margin: 20vh auto;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+}
+.time{
+ 
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    gap: 1vw;
+    font-size: 4rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.elements
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    text-align: center;
+  
+}
+
+button{
+    border: 0;
+    background-color: #D6D9CE;
+    
+}
+.start,.reset,.lap{
+    color:#EDF6F9;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: #006D77;
+}
+  
+.stop{
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: red;
+}
+button:hover{
+    cursor: pointer;
+}
+.lapinfo
+{
+    position: absolute;
+    top: 45vh;
+    right:39.5vw;
+    margin-top: 5vh;
+    padding-block-start: 1%;
+    padding: 1rem 0;
+    opacity: 0;
+}
+@media screen and (max-width: 1270px) {
+body {
+    background-color: #E29578;
+}
+.container{
+ 
+    height: 20vh;
+    width: 80vw;
+ 
+}
+
+.time{
+    font-size: 3rem;
+}
+.start,.reset,.lap{
+    font-size: 1rem;
+}
+  
+.stop{
+    font-size: 1rem;
+}
+
+.lapinfo
+{
+    position: absolute;
+    top: 35vh;
+}
+}  
